@@ -20,7 +20,7 @@ const NAS_DOWNLOAD_DIR = process.env.NAS_DOWNLOAD_DIR || path.join(__dirname, 'd
 
 // ======================【新增防风控核心依赖 开始】======================
 const https = require('https');
-const LRU = require('lru-cache');
+const {LRU} = require('lru-cache');
 const crypto = require('crypto');
 const Semaphore = require('semaphore');
 // ======================【新增防风控核心依赖 结束】======================
