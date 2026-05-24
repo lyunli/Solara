@@ -1,6 +1,6 @@
 services:
   solara:
-    image: leaosunday/solara:latest
+    image: lyunli/solara:latest
     container_name: solara
     restart: always
     ports:
